@@ -1,0 +1,72 @@
+/* === Reset básico === */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* === Estilo general === */
+body {
+  background: #f4f6f9;
+  padding: 40px;
+  color: #333;
+}
+
+/* === Contenedor principal === */
+h2 {
+  margin-bottom: 15px;
+  color: #222;
+}
+
+/* === Tarjetas de formularios === */
+form {
+  background: #fff;
+  padding: 20px;
+  width: 350px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  margin-bottom: 40px;
+}
+
+/* === Inputs === */
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #bbb;
+  margin-top: 8px;
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #4a90e2;
+}
+
+/* === Botones === */
+input[type="submit"] {
+  background: #4a90e2;
+  color: white;
+  border: none;
+  padding: 10px 18px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.2s ease;
+}
+
+input[type="submit"]:hover {
+  background: #3a78c2;
+}
+
+/* === Separador === */
+hr {
+  border: none;
+  height: 1px;
+  background: #ccc;
+  margin: 40px 0;
+}

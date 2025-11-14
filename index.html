@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>ABM de Usuarios / Prueba semestra II </title>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div>
+    <a href="/ssh_form.php">Ir al formulario</a>
+  </div>
+<h2>Alta de Usuario</h2>
+<form action="/Prueba2-2025/alta.php" method="POST">
+  Usuario: <input type="text" name="usuario" required><br>
+  Contraseña: <input type="text" name="contrasena" required><br>
+  <input type="submit" value="Agregar">
+</form>
+
+<hr>
+
+<h2>Baja de Usuario</h2>
+<form action="/Prueba2-2025/baja.php" method="POST">
+  Usuario a eliminar: <input type="text" name="usuario" required><br>
+  <input type="submit" value="Eliminar">
+</form>
+
+<hr>
+
+<h2>Modificación de Contraseña</h2>
+<form action="/Prueba2-2025/modificar.php" method="POST">
+  Usuario: <input type="text" name="usuario" required><br>
+  Nueva contraseña: <input type="text" name="contrasena" required><br>
+  <input type="submit" value="Modificar">
+</form>
+</body>
+</html>
